@@ -4,6 +4,7 @@ main {
   background-position: center;
   background-size: cover;
   height: 100vh;
+  text-align: center;
 }
 
 header {
@@ -24,4 +25,28 @@ header {
 nav a {
   font-size: 1em;
   padding-right: 1em;
+}
+
+.welcome {
+  color: white;
+  padding-top: 15%;
+}
+
+.welcome h1 {
+  font-size: 3em;
+}
+
+.welcome p {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 5%;
+}
+
+button {
+  padding: 1em 2em;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(36, 122, 219);
+  color: white;
+  font-size: 1em;
 }
